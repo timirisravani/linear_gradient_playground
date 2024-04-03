@@ -1,0 +1,48 @@
+body{
+     background: linear-gradient(to bottom right ,rgb(250, 211, 138) ,rgb(250, 93, 93)); 
+    background-size:100% 400%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.outer{
+    background-color: white;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 2px 2px rgb(145, 99, 57);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 150px 150px;
+    gap:8px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 100px;   
+}
+.sravani{
+    background-color: aquamarine;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(207, 193, 181);
+}
+.s1{
+    background:linear-gradient(to right, rgb(0, 200, 255),rgb(146, 234, 250)) ;
+}
+.s2{
+    background: linear-gradient(to right,rgb(244, 161, 244),rgb(239, 121, 58),rgb(255, 89, 0));
+}
+.s3{
+    background:linear-gradient(to right,rgb(255, 42, 0),orange,rgb(255, 153, 0));
+}
+.s4{
+    background: linear-gradient(to right,rgb(165, 117, 238),rgb(170, 67, 249));
+}
+.s5{
+    background: linear-gradient(to right,rgb(3, 207, 142),rgb(154, 239, 75));
+}
+.s6{
+    background: linear-gradient(to right,rgb(100, 163, 239),rgb(175, 219, 255));
+}
